@@ -269,6 +269,7 @@ body {
 }
 #jargonOrganisasiSection{
     margin-left: 50px;
+    margin-right: 50px;
 }
 #titlejargonContainer{
    color: white;
@@ -277,5 +278,31 @@ body {
 #ketJargonContainer{
     margin-top: 50px;
     color: white;
+    font-size: 18pt;
+}
+#tentangKamiContainer{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url('../TentangGambar/Logo/2927262.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#logoContainer{
+    text-align: center;
+}
+#logoPerusahaan{
+    width: 100px;
+}
+#tentangKamiSection{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#titleTentang{
+    color: white;
+    margin-bottom: 25px;
+}
+#ketTentang{
+    color: white;
+    margin-top: 25px;
     font-size: 18pt;
 }
