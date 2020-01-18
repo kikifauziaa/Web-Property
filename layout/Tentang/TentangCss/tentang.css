@@ -260,8 +260,8 @@ body {
 }
 #cardPlace{
     margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 #jargonOrganisasiContainer{
     background: grey;
@@ -327,11 +327,66 @@ body {
     font-size: 16pt;
 }
 #sharePageContainer{
-    background: #2F3030;
+    background: #290c10;
 }
 #sharePageSection{
     text-align: center;
 }
 #sharePageTitle{
+    color: white;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+a.fa{
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid #E488A2;
+}
+
+.fa {
+    padding: 1px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    background: #E488A2;
+    color: white;
+    text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook {
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
+}
+/* Google + */
+.fa-google-plus{
+    color: white;
+}
+/* Instagram */
+.fa-instagram{
+    color: white;
+}
+#followUsContainer{
+    background: #282726;
+}
+#followUsSection{
+    text-align: center;
+}
+#followUsTitle{
+    color: white;
+    font-size: 30pt;
+    font-weight: bold;
+}
+.fa-youtube-play{
     color: white;
 }
