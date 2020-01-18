@@ -390,3 +390,85 @@ a.fa{
 .fa-youtube-play{
     color: white;
 }
+.map{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('TentangGambar/gambarRumah/wijaya-kusuma-kepuharjo-malang2.jpg');
+}
+.map .row{
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 30px;
+}
+.map .row .col-3{
+    padding-right: 30px;
+}
+.map .row .col-3 .fa-home{
+    padding-bottom: 30px;
+}
+.map .row .col-3 .alamat{
+    padding-bottom: 30px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-bottom: 300px;
+    padding-top: 30px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+footer .judul-kategori{
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Lora";
+    line-height: 26px;
+    float:left;
+    color:#ff6b6b;
+    margin-left: 520px;
+}
+footer .tulisan-footer a{
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Verdana";
+    line-height: 26px;
+    float:left;
+    color:#ff6b6b;
+    padding-bottom: 30px;
+}
+footer .judul-service{
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Lora";
+    line-height: 26px;
+    float:left;
+    color:#ff6b6b;
+    text-align: center;
+    margin-left: 490px;
+    margin-top: 50px;
+}
+footer .copyright a{
+    margin-top: 20px;
+    padding-right: 200px;
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Lora";
+    line-height: 26px;
+    float:left;
+    color:#d8dee9;
+}
+footer .navbar-brand{
+    padding-top: 30px;
+}
+footer .navbar-brand a{
+    align-items: center;
+    padding-left: 450px;
+}
