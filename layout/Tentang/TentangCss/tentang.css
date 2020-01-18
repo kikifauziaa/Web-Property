@@ -326,3 +326,12 @@ body {
     color: #E488A2;
     font-size: 16pt;
 }
+#sharePageContainer{
+    background: #2F3030;
+}
+#sharePageSection{
+    text-align: center;
+}
+#sharePageTitle{
+    color: white;
+}
