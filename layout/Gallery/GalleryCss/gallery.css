@@ -256,3 +256,32 @@ body {
     font-size: 25pt;
     font-family: 'Enriqueta', serif;
 }
+#galeryRumahMurahContainer{
+    background: white;
+}
+#galeryRumahMurahSection{
+    text-align: center;
+}
+#titleGaleryRumahMurah{
+    color: black;
+    font-size: 30pt;
+    font-weight: bold;
+}
+#isiGaleryRumahMurah{
+    color: black;
+    font-size: 25pt;
+}
+#ketIsiGaleryRumahMurah{
+    color: #B8B6B4;
+    font-family: 'Enriqueta', serif;
+}
+#linkJforce{
+    color: #B8B6B4;
+    font-family: 'Enriqueta', serif;
+    text-decoration: none;
+}
+#linkJforce:hover{
+    color: goldenrod;
+    font-family: 'Enriqueta', serif;
+    text-decoration: none;
+}
