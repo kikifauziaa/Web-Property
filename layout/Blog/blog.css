@@ -20,7 +20,7 @@ html{
 }
 
 .navbar-collapse{
-    margin-left: 450px;
+    margin-left: 300px;
 
 }
 /*end-navbar*/
@@ -136,10 +136,6 @@ html{
 
 .map .row .col-6{
     padding-left: 30px;
-}
-
-.map .row .col-3 .fa-home{
-    padding-bottom: 30px;
 }
 
 .map .row .col-3 .fa-comment-alt{
