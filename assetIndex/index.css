@@ -30,6 +30,94 @@ html{
 }
 /*end-navbar*/
 
+/*artikrl rumah*/
+.container-artikel-rumah .row-cols-md-3{
+    align-items: center;
+}
+
+
+#artikelRumah{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#artikelRumah h1{
+    font-family: sans-serif;
+}
+
+.galleryRumahContainer .row-cols-md-3 .card{
+    padding-right: 5px;
+    padding-left: 5px;
+    align-items: center;
+}
+
+/*artikel rumah*/
+
+/*statcounter*/
+.startcounter{
+    font-family: sans-serif;
+    background-color: #212529;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.startcounter{
+    text-align: center;
+}
+
+.startcounter h1{
+    color: white;
+}
+
+.startcounter .oyen{
+    font-size: x-small;
+    color: #ffb300;
+    text-align: center;
+}
+
+.startcounter .counter{
+    align-items: center;
+}
+
+/*end-statcounter*/
+
+
+/*map*/
+
+.map{
+    background-image: url(/gambarRumah/wijaya-kusuma-kepuharjo-malang2.jpg);
+}
+
+.map .row{
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 30px;
+}
+
+.map .row .col-3{
+    padding-right: 30px;
+    font-size: small;
+}
+
+.map .row .col-6{
+    padding-left: 30px;
+}
+
+.map .row .col-3 .fa-comment-alt{
+    padding-left: 30px;
+}
+
+.map .row .col-3 .alamat{
+    padding-bottom: 30px;
+}
+
 /*footer*/
 footer{
     background-color: rgba(0, 0, 0, 0.85);
