@@ -1,5 +1,8 @@
+html{
+    font-family: Verdana,sans-serif;
+}
 .navbar-light{
-    background-color: #990012;  
+    background-color: #441111;  
 }
 
 .nav-item{
@@ -14,206 +17,9 @@
     color: white;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    /*height: 300px;  Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/*.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url(/assets/images/loading.gif) center no-repeat #fff;*/
-
-
-#btop {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: -10px; /* Place the button at the bottom of the page */
-    left: 0px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    color: white; /* Text color */    
-}
-
-#custom-search-input {
-    margin:0;
-    margin-top: 10px;
-    padding: 0;
-}
-
-#custom-search-input .search-query {
-    /*padding-right: 3px;
-    padding-right: 4px \9;
-    padding-left: 3px;
-    padding-left: 4px \9;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-#custom-search-input button {
-    border: 0;
-    background: none;
-    /** belows styles are working good */
-    padding: 2px 5px;
-    margin-top: 2px;
-    position: relative;
-    left: -28px;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    color:#D9230F;
-}
-
-.search-query:focus + button {
-    z-index: 3;   
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    /*height: 300px;  Should be removed. Only for demonstration */
-}
-.columnb {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    /*height: 300px;  Should be removed. Only for demonstration */
-}
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.containero {
-  position: relative;
-  width: 100%;
-}
-
-.imageo {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-#custom-search-input {
-    margin:0;
-    margin-top: 10px;
-    padding: 0;
-}
-
-#custom-search-input .search-query {
-    /*padding-right: 3px;
-    padding-right: 4px \9;
-    padding-left: 3px;
-    padding-left: 4px \9;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-#custom-search-input button {
-    border: 0;
-    background: none;
-    /** belows styles are working good */
-    padding: 2px 5px;
-    margin-top: 2px;
-    position: relative;
-    left: -28px;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    color:#D9230F;
-}
-
-.search-query:focus + button {
-    z-index: 3;   
-}
-
-.overlayo {
-	position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.54);
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-    color: #fff;
-}
-
-.containero:hover .overlayo {
-  height: 100%;
-}
-
-.texto {
-  text-align:center;
-  vertical-align:middle;
-  color: white;
-  font-size: 11px;
-  position: relative;
-  overflow: hidden;
-  /*top: 50%;white-space: nowrap; 
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);*/
-}
-
-.navigasi{
-    background-color: #990012;;
-}
-
 .navbar-collapse{
-    margin-left: 600px;
+    margin-left: 450px;
 
-}
-
-.nav-link{
-    color: white;
 }
 
 .spaceBeetwenHeader{
@@ -338,44 +144,91 @@ body {
     font-weight: bold;
 }
 
-a.fa{
+/* a.fa-{
     padding: 15px;
     border-radius: 50%;
     border: 2px solid #E488A2;
-}
+} */
 
-.fa {
-    padding: 1px;
-    font-size: 40px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-.fa:hover {
+.fa-:hover {
     background: #E488A2;
     color: white;
     text-decoration: none;
 }
 
 /* Facebook */
-.fa-facebook {
+#facebook {
     color: white;
+    padding: 1px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid #E488A2;
+}
+#facebook:hover {
+    background: #E488A2;
+    color: white;
+    text-decoration: none;
 }
 
 /* Twitter */
-.fa-twitter {
+#twitter {
     color: white;
+    padding: 1px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid #E488A2;
 }
+#twitter:hover {
+    background: #E488A2;
+    color: white;
+    text-decoration: none;
+}
+
 /* Google + */
 .fa-google-plus{
     color: white;
+    padding: 1px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid #E488A2;
 }
+.fa-google-plus:hover {
+    background: #E488A2;
+    color: white;
+    text-decoration: none;
+}
+
 /* Instagram */
 .fa-instagram{
     color: white;
+    padding: 1px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid #E488A2;
 }
+.fa-instagram:hover {
+    background: #E488A2;
+    color: white;
+    text-decoration: none;
+}
+
 #followUsContainer{
     background: #282726;
 }
@@ -387,9 +240,24 @@ a.fa{
     font-size: 30pt;
     font-weight: bold;
 }
-.fa-youtube-play{
+/*Youtube */
+#youtube{
     color: white;
+    padding: 1px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid #E488A2;
 }
+#youtube:hover {
+    background: #E488A2;
+    color: white;
+    text-decoration: none;
+}
+
 .map{
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('TentangGambar/gambarRumah/wijaya-kusuma-kepuharjo-malang2.jpg');
@@ -404,9 +272,6 @@ a.fa{
 }
 .map .row .col-3{
     padding-right: 30px;
-}
-.map .row .col-3 .fa-home{
-    padding-bottom: 30px;
 }
 .map .row .col-3 .alamat{
     padding-bottom: 30px;
@@ -471,4 +336,10 @@ footer .navbar-brand{
 footer .navbar-brand a{
     align-items: center;
     padding-left: 450px;
+}
+#ikutiFacebook,#ikutiTwitter,#ikutiYoutube{
+    color:  #E488A2;
+}
+#ikutiFacebook:hover,#ikutiTwitter:hover,#ikutiYoutube:hover{
+    text-decoration: none;
 }

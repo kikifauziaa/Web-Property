@@ -1,5 +1,8 @@
+html{
+    font-family: Verdana,sans-serif;
+}
 .navbar-light{
-    background-color: #990012;  
+    background-color: #441111;  
 }
 
 .nav-item{
@@ -14,206 +17,9 @@
     color: white;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    /*height: 300px;  Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/*.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url(/assets/images/loading.gif) center no-repeat #fff;*/
-
-
-#btop {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: -10px; /* Place the button at the bottom of the page */
-    left: 0px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    color: white; /* Text color */    
-}
-
-#custom-search-input {
-    margin:0;
-    margin-top: 10px;
-    padding: 0;
-}
-
-#custom-search-input .search-query {
-    /*padding-right: 3px;
-    padding-right: 4px \9;
-    padding-left: 3px;
-    padding-left: 4px \9;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-#custom-search-input button {
-    border: 0;
-    background: none;
-    /** belows styles are working good */
-    padding: 2px 5px;
-    margin-top: 2px;
-    position: relative;
-    left: -28px;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    color:#D9230F;
-}
-
-.search-query:focus + button {
-    z-index: 3;   
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    /*height: 300px;  Should be removed. Only for demonstration */
-}
-.columnb {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    /*height: 300px;  Should be removed. Only for demonstration */
-}
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.containero {
-  position: relative;
-  width: 100%;
-}
-
-.imageo {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-#custom-search-input {
-    margin:0;
-    margin-top: 10px;
-    padding: 0;
-}
-
-#custom-search-input .search-query {
-    /*padding-right: 3px;
-    padding-right: 4px \9;
-    padding-left: 3px;
-    padding-left: 4px \9;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-#custom-search-input button {
-    border: 0;
-    background: none;
-    /** belows styles are working good */
-    padding: 2px 5px;
-    margin-top: 2px;
-    position: relative;
-    left: -28px;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    color:#D9230F;
-}
-
-.search-query:focus + button {
-    z-index: 3;   
-}
-
-.overlayo {
-	position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.54);
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-    color: #fff;
-}
-
-.containero:hover .overlayo {
-  height: 100%;
-}
-
-.texto {
-  text-align:center;
-  vertical-align:middle;
-  color: white;
-  font-size: 11px;
-  position: relative;
-  overflow: hidden;
-  /*top: 50%;white-space: nowrap; 
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);*/
-}
-
-.navigasi{
-    background-color: #990012;;
-}
-
 .navbar-collapse{
-    margin-left: 700px;
+    margin-left: 450px;
 
-}
-
-.nav-link{
-    color: white;
 }
 
 .carousel-item{
@@ -290,4 +96,112 @@ body {
 } */
 #ketGambarGallery{
     text-align: center;
+}
+.map{
+    background-image: url(/gambarRumah/wijaya-kusuma-kepuharjo-malang2.jpg);
+}
+
+.map .row{
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 30px;
+}
+
+.map .row .col-3{
+    padding-right: 30px;
+    font-size: small;
+}
+
+.map .row .col-6{
+    padding-left: 30px;
+}
+
+.map .row .col-3 .fa-home{
+    padding-bottom: 30px;
+}
+
+.map .row .col-3 .fa-comment-alt{
+    padding-left: 30px;
+}
+
+.map .row .col-3 .alamat{
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-bottom: 50px;
+    padding-top: 30px;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+footer .judul-kategori{
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Lora";
+    line-height: 26px;
+    float:left;
+    color:#ffa8a8;
+    margin-left: 520px;
+}
+
+footer .tulisan-footer a{
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Verdana";
+    line-height: 26px;
+    float:left;
+    color:#ffa8a8;
+    padding-bottom: 30px;
+}
+
+footer .judul-service{
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Lora";
+    line-height: 26px;
+    float:left;
+    color:#ffa8a8;
+    text-align: center;
+    margin-left: 490px;
+    margin-top: 50px;
+}
+
+footer .copyright a{
+    margin-top: 20px;
+    padding-right: 200px;
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Lora";
+    line-height: 26px;
+    float:left;
+    color:#d8dee9;
+}
+
+footer .navbar-brand{
+    padding-top: 30px;
+}
+
+footer .navbar-brand a{
+    align-items: center;
+    padding-left: 450px;
+}
+
+#ikutiFacebook,#ikutiTwitter,#ikutiYoutube{
+    color:  #E488A2;
+}
+#ikutiFacebook:hover,#ikutiTwitter:hover,#ikutiYoutube:hover{
+    text-decoration: none;
 }
