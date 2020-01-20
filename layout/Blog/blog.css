@@ -1,5 +1,8 @@
+html{
+    font-family: Verdana,sans-serif;
+}
 .navbar-light{
-    background-color: #990012;  
+    background-color: #441111;  
 }
 
 .nav-item{
@@ -15,7 +18,7 @@
 }
 
 .navbar-collapse{
-    margin-left: 600px;
+    margin-left: 450px;
 
 }
 
@@ -56,7 +59,6 @@
 
 .background-gelap{
     background-color: rgba(0, 0, 0, 0.85);
-    padding-bottom: 20px;
 }
 
 .background-gelap h6{
@@ -85,14 +87,14 @@
     margin-left: 215px;
     border-radius: 3px;
 }
-
-.col-xl-3{
+.container .row .text-xs-center{
     background-color: rgba(0, 0, 0, 0);
 }
 
 .kartu{
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30pxs;
 }
 
 .card-tittle h2 .pull-xs-left{
@@ -125,10 +127,19 @@
 
 .map .row .col-3{
     padding-right: 30px;
+    font-size: small;
+}
+
+.map .row .col-6{
+    padding-left: 30px;
 }
 
 .map .row .col-3 .fa-home{
     padding-bottom: 30px;
+}
+
+.map .row .col-3 .fa-comment-alt{
+    padding-left: 30px;
 }
 
 .map .row .col-3 .alamat{
@@ -137,11 +148,11 @@
 
 footer{
     background-color: rgba(0, 0, 0, 0.85);
-    padding-bottom: 300px;
+    padding-bottom: 50px;
     padding-top: 30px;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 footer .judul-kategori{
