@@ -45,6 +45,8 @@ html{
 
 #artikelRumah h1{
     font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
 }
 
 .galleryRumahContainer .row-cols-md-3 .card{
