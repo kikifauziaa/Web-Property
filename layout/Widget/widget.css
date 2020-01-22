@@ -11,6 +11,11 @@ html{
     color: white;
 }
 
+.nav-item a{
+    text-size-adjust: small;
+}
+
+
 #navbarDropdown{
     color: white;
 }
@@ -20,7 +25,7 @@ html{
 }
 
 .navbar-collapse{
-    margin-left: 450px;
+    margin-left: 300px;
 
 }
 /*end-navbar*/
@@ -48,12 +53,53 @@ html{
     color: white;
 }
 
-.itungan{
+.isian h6{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+ .itungan{
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 30px;
+ }
+
+.row{
     background-color: rgba(255, 255, 255, 0.3);
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.row .col-4{
+    padding-right: 100px;
+    font-size: small;
+}
+
+.row .col-sm-8{
+    padding-top:-100px
+}
+
+.row .col-sm-8 .input-group{
+    padding-bottom: 30px;
 }
 
 .background-kalkulator{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+
+}
+
+.kalkulator{
+    border-color: grey;
+    border-radius: 3px;
+}
+
+.tulisan-bold{
+    font-weight: bold;
 }
 
 /*endbody*/
